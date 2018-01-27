@@ -1,0 +1,22 @@
+2018-01-27 20:38:31: TypeError: [BABEL] server/app.js: Invalid options type for foreign
+    at Logger.error (/Users/didi/node_modules/babel-core/lib/transformation/file/logger.js:43:11)
+    at OptionManager.mergeOptions (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:283:16)
+    at /Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:389:38
+    at /Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:416:22
+    at Array.map (<anonymous>)
+    at OptionManager.resolvePresets (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:405:20)
+    at OptionManager.mergePresets (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:388:10)
+    at OptionManager.mergeOptions (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:347:14)
+    at OptionManager.addConfig (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:248:10)
+    at OptionManager.findConfigs (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:454:16)
+TypeError: [BABEL] server/app.js: Invalid options type for foreign
+    at Logger.error (/Users/didi/node_modules/babel-core/lib/transformation/file/logger.js:43:11)
+    at OptionManager.mergeOptions (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:283:16)
+    at /Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:389:38
+    at /Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:416:22
+    at Array.map (<anonymous>)
+    at OptionManager.resolvePresets (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:405:20)
+    at OptionManager.mergePresets (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:388:10)
+    at OptionManager.mergeOptions (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:347:14)
+    at OptionManager.addConfig (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:248:10)
+    at OptionManager.findConfigs (/Users/didi/node_modules/babel-core/lib/transformation/file/options/option-manager.js:454:16)

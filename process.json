@@ -1,0 +1,27 @@
+{
+  "apps" : [{
+    "name"        : "mypro",
+    "script"      : "./build/server-start.js",
+    "watch"       : false,
+    "log_date_format"  : "YYYY-MM-DD HH:mm:SS",
+    "restart_delay" : 4000,
+    "cwd"        : "./",  // 当前工作路径
+    "error_file" : "./logs/err.log",  // 错误日志路径
+    "out_file"   : "./logs/out.log",  // 普通日志路径
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "env_production" : {
+       "NODE_ENV": "production"
+    },
+    "env_test" : {
+       "NODE_ENV": "test"
+    },
+    "env_dev" : {
+       "NODE_ENV": "dev"
+    },
+    "env_local" : {
+       "NODE_ENV": "local"
+    }
+  }]
+}
