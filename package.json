@@ -1,8 +1,8 @@
 {
   "name": "mypro",
   "version": "1.0.0",
-  "description": "y",
-  "author": "y",
+  "description": "mypro",
+  "author": "liman",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

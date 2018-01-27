@@ -112,3 +112,5 @@ index.get('/error', function () {
 }());
 
 exports.default = index;
+
+//# sourceMappingURL=index.js.map

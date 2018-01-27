@@ -25,7 +25,7 @@ index.get('/list',async (ctx, next)=>{
 	const url = "http://";
 	const option = {url:url, form:{}};
 
-	//不带cookie的
+	//不带cookie的 get方式
 	const getListData = await common.requestGet(option).catch((errs) => {
 		return ctx.body = ('---getListData-- request failed:'+ errs);
 	});

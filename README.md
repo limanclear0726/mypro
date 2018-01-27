@@ -41,8 +41,6 @@ npm test
 # 正式环境启动          pm2 start process.json --env production
 # 开发环境启动          pm2 start process.json --env dev
 # 测试环境启动          pm2 start process.json --env test
-# 线上测试环境启动       pm2 start process.json --env linetest
-# 内蒙环境启动          pm2 start process.json --env nmline
 # 本地环境启动          pm2 start process.json --env local
 # 例如
 # 正式环境启动
